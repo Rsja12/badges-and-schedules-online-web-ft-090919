@@ -11,3 +11,11 @@ def batch_badge_creator(names)
   
   message
 end
+
+
+def assign_rooms(speakers)
+  
+  message = []
+  
+  
+end
