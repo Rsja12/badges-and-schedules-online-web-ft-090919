@@ -1,4 +1,4 @@
-require "pry"
+
 
 def badge_maker(name)
   
@@ -8,5 +8,5 @@ def badge_maker(name)
      
   end 
   
-
+"Hello, my name is #{names}."
 end
