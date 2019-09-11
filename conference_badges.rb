@@ -1,10 +1,10 @@
 def badge_maker(names)
   
-  new_array = []
+  badge = []
   
   names.each do |name|
-    new_array << "Hello, my name is #{name}."
+    "Hello, my name is #{name}."
   end 
   
-  new_array
+  badge
 end
