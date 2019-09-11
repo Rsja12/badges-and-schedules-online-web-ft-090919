@@ -1,10 +1,9 @@
-def badge_maker(names)
+def badge_maker(name)
   
- names = []
-  
-  names.each do |name|
-    puts "Hello, my name is #{name}."
+ 
+  name.each do |names|
+    puts "Hello, my name is #{names}."
   end 
   
-  names
+  
 end
