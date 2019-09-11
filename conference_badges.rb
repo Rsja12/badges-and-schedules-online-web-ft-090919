@@ -8,5 +8,4 @@ def badge_maker(name)
      
   end 
   
-"Hello, my name is #{names}."
 end
