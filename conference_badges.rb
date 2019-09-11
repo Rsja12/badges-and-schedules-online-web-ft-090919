@@ -15,14 +15,15 @@ end
 
 def assign_rooms(speakers)
   
-  message = []
-  
-  index_plus_one
-  speakers.each_with_index do |speaker, index|
-    
-  end
+ message = []
+ 
+ speakers.each_with_index do |speaker, index|
+ index_plus_one = index + 1
+   message << "Hello, #{speaker}! You'll be assigned to room #{index_plus_one}!"
+ end
+ 
+ message
 end
-
 
 
 
