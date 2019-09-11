@@ -3,13 +3,13 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  messages = []
+  message = []
   
   names.each do |name|
     messages << "Hello, my name is #{name}."
   end
   
-  messages
+  message
 end
 
 
