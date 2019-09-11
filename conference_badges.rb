@@ -17,6 +17,7 @@ def assign_rooms(speakers)
   
   message = []
   
+  index_plus_one
   speakers.each_with_index do |speaker, index|
     
   end
